@@ -8,6 +8,7 @@ int main() {
 
 	Font font;
 	font.loadFromFile("TimesNewRoman.ttf");
+	
 	Text scoreText;
 	scoreText.setFont(font);
 	scoreText.setCharacterSize(24);
